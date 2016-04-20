@@ -14,7 +14,7 @@ var geoTimezone = require('geo-timezone');
 ```javascript
 var geoTimezone = require('geo-timezone');
 
-geoTimezone.decodeByLatLng({
+geoTimezone.decodeByLngLat({
 	coordinates: [39.6034810, -119.6822510] // [ltn, lat]
 }, function(err, result) {
   console.log(result);
